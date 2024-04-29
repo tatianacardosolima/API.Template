@@ -9,6 +9,8 @@ namespace Template.UnitTests.Entities
 {
     public class CorretorTest
     {
+        
+
         [Fact(DisplayName = "Validar se o nome é nulo ou vazio")]
         [Trait("Corretor", "Validar se o nome é nulo")]
         public void Validate_Name_WhenNull_ShouldReturnFalse()
